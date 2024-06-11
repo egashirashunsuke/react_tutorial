@@ -31,7 +31,11 @@ body {
     text-align: center;
     width: 34px;
   }
-  
+
+.square.winning {
+  background: yellow;
+}
+
   .square:focus {
     outline: none;
   }
@@ -48,4 +52,3 @@ body {
   .game-info {
     margin-left: 20px;
   }
-  
